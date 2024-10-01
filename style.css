@@ -10,6 +10,7 @@ body {
 .navbar {
   background-color: #32bce6;
   padding: 20px;
+  font-style: bold;
 }
 
 .navbar ul {
@@ -25,7 +26,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 25px;
-  margin: 0 40px;
+  margin: 0 30px;
 }
 
 .navbar a {
@@ -38,29 +39,51 @@ body {
 }
 
 .navbar ul li img {
-  width: 60px;
-  padding: 0;
-  margin: 0;
+  width: 87px;
 }
 
-.navbar ul li button {
-  background-color: #67c6e3; /* Warna biru muda */
-  color: #fff; /* Warna putih */
-  border: none;
-  border-radius: 20px; /* Membulatkan sudut */
-  font-size: 20px;
-  cursor: pointer;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+.search-container {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Efek shadow */
+  padding: 10px;
+  margin-left: 10px;
   width: 199px;
   height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+  width: 100%;
 }
 
-.navbar ul li button img {
-  width: 35px;
-  margin-left: 50px;
+.search-container input[type="text"]::placeholder {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  font-size: 23px;
+  color: white;
+  font-style: bold;
+}
+
+.search-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  font-size: 23px;
+}
+
+.search-container button[type="submit"] {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-container button[type="submit"] img {
+  width: 40px;
 }
