@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 2143px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.navbar {
+  background-color: #32bce6;
+  padding: 20px;
+  font-style: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar li {
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  margin: 0 30px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  cursor: pointer;
+}
+
+.navbar ul li img {
+  width: 87px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Efek shadow */
+  padding: 10px;
+  margin-left: 10px;
+  width: 199px;
+  height: 50px;
+  width: 100%;
+}
+
+.search-container input[type="text"]::placeholder {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  font-size: 23px;
+  color: white;
+  font-style: bold;
+}
+
+.search-container input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 16px;
+  background-color: transparent;
+  font-size: 23px;
+}
+
+.search-container button[type="submit"] {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-container button[type="submit"] img {
+  width: 40px;
+}
