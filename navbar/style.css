@@ -8,6 +8,7 @@ body {
 }
 
 .navbar {
+  position: fixed;
   background-color: #32bce6;
   padding: 20px;
   font-style: bold;
