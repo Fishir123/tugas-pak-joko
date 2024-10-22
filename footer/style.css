@@ -1,68 +1,58 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  footer {
-    background-color: #00bcd4;
-    padding: 30px 0;
-    color: white;
-  }
-  
-  .footer-content {
-    display: flex;
-    justify-content: space-between; /* Membuat elemen tersebar ke kanan */
-    flex-wrap: wrap; /* Agar tetap responsif di layar kecil */
-    padding: 0 50px;
-  }
-  
-  .footer-section {
-    flex: 1;
-    min-width: 150px; /* Menentukan lebar minimum agar responsif */
-    padding: 0 20px;
-  }
-  
-  .footer-section ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .footer-section ul li {
-    margin: 10px 0;
-  }
-  
-  .footer-section ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .footer-section ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  .logo-section {
-    flex: 1;
-    text-align: left;
-  }
-  
-  .logo {
-    width: 100px;
-  }
-  
-  footer a img {
-    width: 25px;
-    margin: 0 5px;
-  }
-  
-  .footer-bottom {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 14px;
-    color: #f2f2f2;
-  }
-  
-  footer a {
-    text-decoration: none;
-    color: white;
-  }
-  
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 2346px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+.header {
+  display: flex;
+}
+.header img {
+  width: 50%;
+  height: 195px;
+  border-radius: 0;
+}
+.header .logo {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px 10px;
+}
+.footer {
+  background-color: #6ec1e4;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  color: white;
+  position: relative;
+}
+.footer div {
+  text-align: center;
+}
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer .social-icons i {
+  font-size: 20px;
+}
+.footer .copyright {
+  text-align: right;
+  margin-top: 20px;
+  width: 100%;
+}
+.footer p {
+  text-align: left;
+}
+.footer .right-align {
+  text-align: right;
+}
