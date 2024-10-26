@@ -1,23 +1,23 @@
 mixin navbar
-    header
-      nav.navbar
+  header
+    nav.navbar
+      .nav-logo
+        img(src="img/Water Drop.png" alt="logo chellep" class="nav-logo")
+      .nav-menu
         ul
-          li
-            img(src="img/Water Drop.png" alt="logo chellep")
-          li
+          li.nav-item
             a(href="#about") About
-          li
+          li.nav-item
             a(href="#faq") FAQ
-          li
+          li.nav-item
             a(href="product") Product
-          li
-            a(href="../news.html") News
-          li
+          li.nav-item
+            a(href="#news") News
+          li.nav-item
             a(href="#contact us") Contact Us
-          li
+          li.nav-item
             a(href="login") Login
-          li
-            .search-container
-              input(type="search" placeholder="Search...")
-              button(type="submit")
-                img(src="img/search.png" alt="")
+      .nav-search
+        input(type="search" placeholder="Search...")
+        button(type="submit")
+          img(src="img/search.png" alt="")

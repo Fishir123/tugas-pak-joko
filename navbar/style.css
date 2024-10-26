@@ -9,6 +9,92 @@ body {
 
 .navbar {
   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  width: 1440px;
+  height: 160px;
+  display: flex;
+  direction: row;
+  justify-content: space-evenly;
+  background-color: #32bce6;
+  align-items: center;
+}
+
+.nav-logo {
+  align-items: center;
+  width: 78px;
+}
+.nav-menu ul {
+  align-items: center;
+  display: flex;
+  direction: row;
+  list-style-type: none;
+  gap: 6rem;
+}
+
+.nav-menu a,
+.nav-menu li {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+/*nav-search*/
+
+.nav-search {
+  width: 199px;
+  height: 50px;
+  display: flex;
+  direction: row;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-search input[type="search"]::placeholder {
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: transparent;
+  color: white;
+}
+
+.nav-search input[type="search"] {
+  color: white;
+}
+.nav-search button[type="submit"] {
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+  left: -50px;
+}
+
+.nav-search input {
+  border: none;
+  outline: none;
+  background-color: #67c6e3;
+  border-radius: 20px;
+  font-size: 23px;
+  width: 199px;
+  height: 50px;
+}
+button img {
+  width: 23px;
+  height: 31px;
+}
+
+/*.navbar {
+  position: fixed;
   background-color: #32bce6;
   padding: 20px;
   font-style: bold;
@@ -47,7 +133,7 @@ body {
   display: flex;
   align-items: center;
   border-radius: 20px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Efek shadow */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); 
   padding: 10px;
   margin-left: 10px;
   width: 199px;
@@ -88,3 +174,5 @@ body {
 .search-container button[type="submit"] img {
   width: 40px;
 }
+
+*/
