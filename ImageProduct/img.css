@@ -1,26 +1,32 @@
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 2143px;
   font-family: "DM Sans", sans-serif;
-  background-color: #caf0f8;
 }
+
 .card {
+  padding: 0;
+  margin: 0;
+}
+.card-image {
+  width: 244px;
+  height: 244px;
   border-radius: 9px;
-  width: 150px;
-  padding: 30px;
-  text-align: center;
+  overflow: hidden;
 }
-.card img {
+
+.card-image img {
   width: 100%;
-  border-radius: 10px;
+  height: 100%;
 }
-.card p {
-  margin: 10px 0 0;
-  color: #333;
-  font-size: 14px;
+
+.card-desc {
+  width: 244px;
+}
+
+.card-desc p {
+  font-size: 20px;
   font-weight: 400;
-  text-align: left;
 }

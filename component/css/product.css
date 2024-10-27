@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  font-family: "DM Sans", sans-serif;
+}
+.card {
+  border-radius: 9px;
+  width: 150px;
+  padding: 30px;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+.card p {
+  margin: 10px 0 0;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}

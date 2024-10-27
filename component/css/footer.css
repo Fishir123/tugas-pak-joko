@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
   width: 1440px;
-  height: 2346px;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -29,14 +28,6 @@ body {
   margin: 0;
   width: 720px;
   height: 205px;
-  flex: 1;
-}
-.footer2 {
-  padding: 0;
-  margin: 0;
-  width: 720px;
-  height: 205px;
-  flex: 1;
 }
 
 .footer-img {
