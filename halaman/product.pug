@@ -1,0 +1,19 @@
+extends ../component/_template.pug
+
+block head 
+    link(rel="stylesheet" href="../component/css/product.css")
+    link(rel="stylesheet" href="css/product.css")
+block title 
+    title Our Product
+block content
+    h1.product-title Our Product 
+    div.product-desc
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mollis pulvinar. Sed at efficitur dui. Vestibulum vitae bibendum mi, quis aliquet nunc. Aliquam erat volutpat.
+    .product-item
+        +product
+        +product 
+        +product
+    .product-item 
+        +product
+        +product 
+        +product 
