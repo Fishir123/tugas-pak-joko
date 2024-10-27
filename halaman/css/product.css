@@ -24,6 +24,33 @@ body {
   font-size: 20px;
   font-weight: 400;
   width: 715px;
-  text-align: center;
+  display: block;
   justify-content: center;
+}
+
+.product-desc p{
+ text-align: center;
+}
+
+.reason {
+  display: flex;
+  direction: row;
+  justify-content: center;
+}
+
+.reason-img {
+  width: 248px;
+  height: 248px;
+  overflow: hidden;
+  border-radius: 9px;
+}
+
+.reason-img {
+    width: 248px;
+}
+
+.reason-text {
+    width: 452px;
+    height: 273px;
+    margin: 0 40px;
 }
