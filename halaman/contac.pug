@@ -1,0 +1,54 @@
+extends ../component/_template.pug
+
+block head 
+  link(rel="stylesheet", href="../component/css/footerstats.css")
+  link(rel="stylesheet", href="css/footerstats.css")
+
+block content
+  .sidebar-container
+    .sidebar
+      ul
+        li
+          i.fa.fa-user
+          span Username
+          p 0851-XXXX-XXXX
+        li
+          i.fa.fa-building
+          span Username
+          p 0851-XXXX-XXXX
+        li
+          i.fa.fa-industry
+          span Username
+          p 0851-XXXX-XXXX
+      .email-icon
+        a(href="mailto:username@example.com")
+          i.fa.fa-envelope
+
+    .form-section
+      form
+        .form-group
+          label(for="full-name") Full Name
+          input(type="text" id="full-name" name="full-name" placeholder="Full Name")
+        .form-group
+          label(for="email") Email
+          input(type="email" id="email" name="email" placeholder="Email")
+        .form-group
+          label(for="age") Age
+          input(type="number" id="age" name="age" placeholder="Age")
+        .form-group
+          label(for="phone") No. Hp
+          input(type="tel" id="phone" name="phone" placeholder="No. Hp")
+        .form-group
+          label(for="address") Address
+          input(type="text" id="address" name="address" placeholder="Address")
+        .form-group
+          label Gender
+          input(type="radio" id="male" name="gender" value="male")
+          label(for="male") Male
+          input(type="radio" id="female" name="gender" value="female")
+          label(for="female") Female
+        .form-group
+          label(for="reason") Reason
+          textarea(id="reason" name="reason" placeholder="Reason")
+
+    +footerStats
