@@ -63,12 +63,31 @@ body {
   margin: 0;
 }
 
-.pinggir-2 {
-  display: table-column;
-  text-align: right;
+.pinggir li a {
   list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.tepi li a {
   padding: 0;
   margin: 0;
+  color: white;
+  text-decoration: none;
+
+}
+
+.menu li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.tepi {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: right;
 }
 
 .footer-medsos {
