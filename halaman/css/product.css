@@ -18,20 +18,22 @@ body {
   font-size: 96px;
   font-weight: 900;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
 .product-desc {
+  width: 715px;
+  text-align: center;
+  margin-left: 370px;
+  margin-top: 0;
+}
+
+.product-desc p {
+  text-align: center;
   font-size: 20px;
   font-weight: 400;
-  width: 715px;
-  display: block;
-  justify-content: center;
 }
-
-.product-desc p{
- text-align: center;
-}
-
 .reason {
   display: flex;
   direction: row;
@@ -46,11 +48,11 @@ body {
 }
 
 .reason-img {
-    width: 248px;
+  width: 248px;
 }
 
 .reason-text {
-    width: 452px;
-    height: 273px;
-    margin: 0 40px;
+  width: 452px;
+  height: 273px;
+  margin: 0 40px;
 }
