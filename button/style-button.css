@@ -1,0 +1,62 @@
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 2143px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.button {
+  border-style: solid;
+  border-color: #008cff;
+  border-radius: 20px;
+  font-size: 28px;
+  background-color: none;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 55px;
+  width: 138px;
+}
+
+.button2 {
+  border-style: solid;
+  border-color: #008cff;
+  border-radius: 20px;
+  font-size: 28px;
+  background-color: none;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  height: 70px;
+  width: 307px;
+}
+
+.button3 {
+  border-style: solid;
+  border-color: #00b4d8;
+  border-radius: 20px;
+  font-size: 40px;
+  font-style: bold;
+  background-color: #00b4d8;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  height: 70px;
+  width: 207px;
+}
+
+.button4 {
+  border-style: solid;
+  border-color: #00b4d8;
+  border-radius: 20px;
+  font-size: 40px;
+  font-style: bold;
+  background-color: #00b4d8;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  height: 70px;
+  width: 207px;
+}

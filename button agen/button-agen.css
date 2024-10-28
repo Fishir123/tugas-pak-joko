@@ -1,0 +1,26 @@
+body {
+    background-color: #ccf2f4;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    color: #000000;
+    font-weight: 700;
+}
+.plus-icon {
+    font-size: 30px;
+    margin-right: 10px;
+
+}
+.plus-icon:hover {
+    cursor: pointer;
+}
+.button {
+    background-color: transparent;
+    border: none;
+}

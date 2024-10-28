@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  background-color: #caf0f8;
+}
+
+.title {
+  text-align: center;
+  font-size: 96px;
+  font-weight: 900;
+  color: black;
+}
+
+.sub-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-left: 78px;
+  margin-bottom: 0;
+}
+
+.garis {
+  width: 105px;
+  height: 6px;
+  border: none;
+  background-color: #00488a;
+  margin-left: 78px;
+  margin-top: 0;
+  margin-bottom: 90px;
+}

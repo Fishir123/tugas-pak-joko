@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 1440px;
+  background-color: #63bdd9;
+}
+.img1,
+.img2 {
+  height: 205px;
+}
+
+.logo,
+.logo {
+  position: relative;
+  top: -150px;
+  left: 310px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer1 {
+  padding: 0;
+  margin: 0;
+  width: 720px;
+  height: 205px;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 11rem;
+  padding: 0;
+  font-size: 25px;
+  font-weight: 300;
+  color: white;
+  margin-top: 30px;
+}
+
+.menu {
+  display: table-column;
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pinggir {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.pinggir li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.tepi li a {
+  padding: 0;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+
+}
+
+.menu li a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+
+.tepi {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-align: right;
+}
+
+.footer-medsos {
+  margin: 0 50px;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-medsos img {
+  width: 44px;
+  height: 44px;
+}
+
+.footer-copyright {
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+}
