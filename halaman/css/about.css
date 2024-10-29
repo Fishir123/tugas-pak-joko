@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  background-color: #caf0f8;
+}
+
+h1 {
+  text-align: auto;
+  font-size: 96px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.header-about {
+  display: flex;
+  direction: row;
+  justify-content: space-evenly;
+  gap: 2em;
+  margin: 0 60px;
+}
+
+.header-text h2 {
+  font-size: 29px;
+  font-weight: 800;
+}
+
+.header-text p {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about-image {
+  width: 312px;
+  height: 383px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about-image img {
+  width: 312px;
+  height: 383px;
+  border-radius: 20px;
+}
+
+.header-text {
+  flex: 1;
+  overflow-y: scroll;
+  height: 350px;
+}
+
+.header-sub h2 {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+}
+.garis {
+  width: 105px;
+  height: 6px;
+  border: none;
+  background-color: #00488a;
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+
+.header-sub {
+    margin-left: 60px;
+    margin-bottom: 0;
+}
+
+.about-content {
+    display: flex;
+    gap: 2rem;
+    margin: 0 60px;
+}
+
+.about-text {
+    font-size: 22px;
+    font-weight: 400px;
+}
+
+.button-pendiri button{
+    width: 138px;
+    height: 55px;
+    border: 3px solid #008CFF;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: transparent;
+    font-size: 28px;
+    font-weight: 300;
+    position: relative;
+    left: 1250px;
+    top: -55px;
+}
+
+.button-pendiri button:hover {
+    cursor: pointer;
+    background-color: #008CFF;
+    color: white;
+}
+
+.button-pendiri {
+    margin-bottom: 60px;
+}
+
+

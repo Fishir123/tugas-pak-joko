@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  background-color: #caf0f8;
+}
+.carousel {
+  height: 516px;
+}
+.background {
+  background-color: #0077b6;
+  opacity: 60%;
+  width: 725px;
+  height: 516px;
+  position: relative;
+  top: -521px;
+}
+
+.penghargaan-title h3 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.penghargaan-title p {
+  font-size: 38px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.penghargaan-title {
+  width: 500px;
+  position: relative;
+  top: -930px;
+  left: 100px;
+  color: white;
+}
+
+.history {
+  width: 835px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 600px;
+}
+.tahun {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.garis {
+  height: 1px;
+  background-color: black;
+  border: none;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.tahun p {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.penghargaan-text {
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 239px;
+}

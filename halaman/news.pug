@@ -1,5 +1,45 @@
-extends component/_template.pug
+extends ../component/_template.pug
 
-block content  
+block head 
+    link(rel="stylesheet", href="../component/css/iglight.css")
+    link(rel="stylesheet", href="css/news.css")]
+    title News
+block content 
+    .container2
+        .search-section
+        .search-bar
+        i.fas.fa-search
+        input(type="text" placeholder="Search news")
+        .tags
+        .tag Lorem ipsum
+        .tag Lorem ipsum
+        .tag Lorem
+        .tag Lorem ipsum
+        .tag Lorem ipsum, odor amet
+        .tag Lorem ipsum
+        .tag Lorem ipsum, odor amet
+        .tag Lorem
+        .tag Lorem ipsum, odor amet
+        .tag Lorem
+    
+    .daily-reads-section
+        h2 For Your Daily Reads
+        .news-item
+            div
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+            img(alt="Mountain view" height="100" width="100" src="https://storage.googleapis.com/a1aa/image/bQebyx40g8WSUaAficT53O7d9DyeLJ7weyOmWnSOfx9erfc66E.jpg")
+        .news-item
+            div
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+            img(alt="Mountain view" height="100" width="100" src="https://storage.googleapis.com/a1aa/image/bQebyx40g8WSUaAficT53O7d9DyeLJ7weyOmWnSOfx9erfc66E.jpg")
+        .news-item
+            div
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+            img(alt="Mountain view" height="100" width="100" src="https://storage.googleapis.com/a1aa/image/bQebyx40g8WSUaAficT53O7d9DyeLJ7weyOmWnSOfx9erfc66E.jpg")
+        .news-item
+            div
+            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+            img(alt="Mountain view" height="100" width="100" src="https://storage.googleapis.com/a1aa/image/bQebyx40g8WSUaAficT53O7d9DyeLJ7weyOmWnSOfx9erfc66E.jpg")
+            
     +higlight
 

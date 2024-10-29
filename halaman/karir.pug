@@ -1,0 +1,22 @@
+extends ../component/_template.pug
+
+block head 
+    link(rel="stylesheet", href="css/karir.css")
+    title karir
+block content
+    .karir-image 
+        img(src="../img/gambar.png", alt="")
+    .karir-text 
+        p                Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus arcu vestibulum torquent hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus. At viverra tortor non vulputate at vel tristique consectetur sed. Mauris consequat rhoncus ut volutpat ante varius convallis proin. Non facilisis urna ullamcorper iaculis; maecenas mauris sodales vitae turpis? Class cubilia orci metus montes tempor consequat. Facilisis lectus risus ante; parturient id elit. Hendrerit sit taciti metus imperdiet morbi rhoncus lobortis cubilia. Convallis habitant urna urna primis habitasse vivamus semper efficitur a. 
+    .testi-bond
+        .testimoni 
+            h1 Testimoni
+            hr.garis1
+        .outbond 
+            h1 Outbound
+            hr.garis2
+    .video
+        video(controls autoplay loop muted)
+            source(src="../img/video1.mp4")
+        video(controls autoplay loop muted)
+            source(src="../img/video2.mp4" type="video/mp4")

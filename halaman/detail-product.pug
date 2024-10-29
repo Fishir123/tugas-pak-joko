@@ -1,0 +1,17 @@
+extends ../component/_template.pug
+
+block head 
+    link(rel="stylesheet", href="css/detail-product.css")
+block content
+    .detail-product
+        .detail-image   
+            img(src="../img/product.png", alt="")
+        .detail-desc    
+            h3 Follow us on social media
+            .detail-medsos
+                - var images = ['../img/logo1.png', '../img/logo2.png', '../img/logo3.png', '../img/logo4.png']
+                each img in images
+                    img(src=img alt="medsos")
+            .detail-text 
+                p Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus arcu vestibulum torquent hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus. At viverra tortor non vulputate at vel tristique consectetur sed. Mauris consequat rhoncus ut volutpat ante varius convallis proin. Non facilisis urna ullamcorper iaculis; maecenas mauris sodales vitae turpis? Class cubilia orci metus montes tempor consequat Facilisis lectus risus ante; parturient id elit. Hendrerit sit taciti metus imperdiet morbi rhoncus
+

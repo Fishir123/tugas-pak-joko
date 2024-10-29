@@ -1,0 +1,111 @@
+     .container {
+         display: flex;
+         justify-content: space-between;
+         width: 80%;
+         margin-bottom: 20px;
+     }
+     .search-section, .daily-reads-section {
+         width:50%;
+         padding: 20px;
+         box-sizing: border-box;
+         place-content: center;
+         place-self: center;
+     }
+     .search-bar {
+         display: flex;
+         align-items: center;
+         background-color: white;
+         border-radius: 20px;
+         padding: 10px;
+         margin-bottom: 20px;
+     }
+     .search-bar input {
+         border: none;
+         outline: none;
+         flex-grow: 1;
+         margin-left: 10px;
+     }
+     .tags {
+         display: flex;
+         flex-wrap: wrap;
+         gap: 10px;
+     }
+     .tag {
+         background-color: #b3e5fc;
+         border-radius: 20px;
+         padding: 10px 20px;
+         color: #00796b;
+     }
+     .daily-reads-section {
+         background-color: #0288d1;
+         border-radius: 20px;
+         color: white;
+     }
+     .daily-reads-section h2 {
+         margin-top: 0;
+     }
+     .news-item {
+         display: flex;
+         margin-bottom: 20px;
+     }
+     .news-item img {
+         width: 100px;
+         height: 100px;
+         border-radius: 10px;
+         margin-left: 20px;
+     }
+     .highlights {
+         width: 80%;
+         margin-top: 20px;
+     }
+     .highlights h2 {
+         margin-top: 0;
+     }
+     .highlight-item {
+         display: inline-block;
+         width: 22%;
+         margin-right: 2%;
+         background-color: white;
+         border-radius: 10px;
+         overflow: hidden;
+         margin-bottom: 20px;
+     }
+     .highlight-item img {
+         width: 100%;
+         height: auto;
+     }
+     .highlight-item .content {
+         padding: 10px;
+         background-color: #49aade;
+         color: white;
+     }
+     .highlight-item .content h3 {
+         margin: 0;
+     }
+     .highlight-item .content p {
+         margin: 10px 0;
+     }
+     .highlight-item .content .meta {
+         font-size: 12px;
+     }
+     .container2{
+       
+        display: flex;
+        gap: 10px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 20px;
+     
+      }
+      .highlights {
+        background-size: auto;
+        background-position: 100%;
+        width: 100%;
+        margin: 0;
+      }
+
+      body {
+        background-color: rgb(46, 71, 106);
+      }
