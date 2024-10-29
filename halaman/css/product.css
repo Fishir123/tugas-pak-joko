@@ -56,3 +56,22 @@ body {
   height: 273px;
   margin: 0 40px;
 }
+
+.product-sub {
+  margin-left: 600px;
+  margin-bottom: 40px;
+}
+
+.product-sub h1 {
+  font-size: 48;
+  font-weight: 900;
+  margin: 0;
+}
+
+.garis {
+  width: 105px;
+  height: 6px;
+  border: none;
+  background-color: #00488a;
+  margin: 0;
+}
