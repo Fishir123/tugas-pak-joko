@@ -1,0 +1,22 @@
+.year {
+  background-color: #3785ac;
+  color: white;
+  height: 65px;
+  width: 186px;
+  box-shadow: 8px 9px 4px #67c6e3;
+  border-radius: 3px;
+  margin: 0;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.year p {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 5px;
+  padding: 0;
+}
