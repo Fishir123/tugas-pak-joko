@@ -1,0 +1,52 @@
+.container {
+    padding: 20px;
+}
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin-top: 5px;
+}
+.reward-box {
+    display: flex;
+    border: 1px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cce7f0;
+}
+.reward-item {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border-right: 1px solid #000;
+}
+.reward-item:last-child {
+    border-right: none;
+}
+.reward-item p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+.reward-item .number {
+    font-size: 24px;
+    font-weight: bold;
+}
+.read-more {
+    background-color: #00a2d1;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    cursor: pointer;
+}
+.read-more i {
+    margin-left: 5px;
+}

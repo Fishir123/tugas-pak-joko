@@ -1,45 +1,46 @@
 extends ../component/_template.pug
 
 block head 
-    link(rel="stylesheet", href="../component/css/iglight.css")
-    link(rel="stylesheet", href="css/news.css")]
+    link(rel="stylesheet", href="../component/css/higlight.css")
+    link(rel="stylesheet", href="css/news.css")
     title News
 block content 
     .container2
         .search-section
-        .search-bar
-        i.fas.fa-search
-        input(type="text" placeholder="Search news")
-        .tags
-        .tag Lorem ipsum
-        .tag Lorem ipsum
-        .tag Lorem
-        .tag Lorem ipsum
-        .tag Lorem ipsum, odor amet
-        .tag Lorem ipsum
-        .tag Lorem ipsum, odor amet
-        .tag Lorem
-        .tag Lorem ipsum, odor amet
-        .tag Lorem
+            .search-bar
+                img(src="../img/search.png", alt="")
+                input(type="text" placeholder="Search news")
+            .kategori
+                .tag Lorem ipsum
+                .tag Lorem ipsum
+                .tag Lorem
+                .tag Lorem ipsum
+                .tag Lorem ipsum, odor amet
+                .tag Lorem ipsum
+                .tag Lorem ipsum, odor amet
+                .tag Lorem
+                .tag Lorem ipsum, odor amet
+                .tag Lorem
     
-    .daily-reads-section
-        h2 For Your Daily Reads
-        .news-item
-            div
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
-            img(alt="Mountain view" height="100" width="100" src="https://storage.googleapis.com/a1aa/image/bQebyx40g8WSUaAficT53O7d9DyeLJ7weyOmWnSOfx9erfc66E.jpg")
-        .news-item
-            div
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
-            img(alt="Mountain view" height="100" width="100" src="https://storage.googleapis.com/a1aa/image/bQebyx40g8WSUaAficT53O7d9DyeLJ7weyOmWnSOfx9erfc66E.jpg")
-        .news-item
-            div
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
-            img(alt="Mountain view" height="100" width="100" src="https://storage.googleapis.com/a1aa/image/bQebyx40g8WSUaAficT53O7d9DyeLJ7weyOmWnSOfx9erfc66E.jpg")
-        .news-item
-            div
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
-            img(alt="Mountain view" height="100" width="100" src="https://storage.googleapis.com/a1aa/image/bQebyx40g8WSUaAficT53O7d9DyeLJ7weyOmWnSOfx9erfc66E.jpg")
-            
-    +higlight
+        .daily-reads-section
+            h2 For Your Daily Reads
+            .news-item
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+                img(alt="Mountain view" height="100" width="100" src="../img/gambar.png")
+            .news-item
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+                img(alt="Mountain view" height="100" width="100" src="../img/gambar.png")
+            .news-item
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+                img(alt="Mountain view" height="100" width="100" src="../img/gambar.png")
+            .news-item
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+                img(alt="Mountain view" height="100" width="100" src="../img/gambar.png")
+    .highlight-sub  
+        h2 Highlights
+        hr.garis
+    .group-higlight      
+        +higlight
+        +higlight
+        +higlight
 
