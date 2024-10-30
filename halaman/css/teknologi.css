@@ -1,0 +1,34 @@
+ body {
+        font-family: Arial, sans-serif;
+        background-color: #b3e5fc;
+        color: #333;
+        margin: 0;
+        padding: auto;
+    }
+    .Teknologi {
+        background-color: #e0f3fc;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin: auto;
+    
+       
+    
+    }
+    h1 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+    image {
+        border-radius: 20p
+
+    }
+    p {
+        font-size: 18px;
+        line-height: 1;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .section-title {
+        font-weight: bold;
+        margin-top: 20px;
+    }
