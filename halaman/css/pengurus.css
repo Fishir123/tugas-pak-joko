@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 100%;
+    font-family: "DM Sans", sans-serif;
+    background-color: #caf0f8;
+  }
+  
+  
+.datapengurus, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    margin-top: 0;
+    padding: 20px;
+
+}
+
+.datapengurus {
+    margin-left: 225px;
+    width: 1000px;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.datapengurus table th,td{
+    text-align: center;
+}
+
+.garis {
+    width: 105px;
+    height: 6px;
+    border: none;
+    background-color: #00488a;
+    margin-left: 0px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+.pengurus-title {
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-top: 40px;
+}
+
+.pengurus-title h1{
+    margin-bottom: 0;
+    
+}
+
+.image-data {
+    width: 1321px;
+    height: 633px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.image-data img {
+    width: 1321px;
+    height: 633px;
+    border-radius: 20px;
+}
