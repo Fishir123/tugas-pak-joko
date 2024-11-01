@@ -1,5 +1,18 @@
 extends component/_template.pug
 
 block head 
+    link(rel="stylesheet", href="component/css/article.css")
+    link(rel="stylesheet", href="component/css/circle.css")
     title homepage
 block content 
+    .landingpage 
+        img(src="img/wave1.png", alt="")
+        .landingcontent 
+            .landing-title 
+                h1 LoremIpsum
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mollis pulvinar. Sed at efficitur dui. Vestibulum vitae bibendum mi, quis aliquet nunc. Aliquam erat volutpat.
+            img(src="img/gambar.png", alt="")
+        img(src="img/wave2.png", alt="")
+        img(src="img/wave3.png", alt="")
+    +article 
+    +circleimage

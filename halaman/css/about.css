@@ -52,9 +52,9 @@ h1 {
 }
 
 .header-sub h2 {
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 0;
 }
 .garis {
   width: 105px;
@@ -66,44 +66,60 @@ h1 {
 }
 
 .header-sub {
-    margin-left: 60px;
-    margin-bottom: 0;
+  margin-left: 60px;
+  margin-bottom: 0;
 }
 
 .about-content {
-    display: flex;
-    gap: 2rem;
-    margin: 0 60px;
+  display: flex;
+  gap: 2rem;
+  margin: 0 60px;
 }
 
 .about-text {
-    font-size: 22px;
-    font-weight: 400px;
+  font-size: 22px;
+  font-weight: 400px;
 }
 
-.button-pendiri button{
-    width: 138px;
-    height: 55px;
-    border: 3px solid #008CFF;
-    border-radius: 20px;
-    text-align: center;
-    padding-top: 5px;
-    background-color: transparent;
-    font-size: 28px;
-    font-weight: 300;
-    position: relative;
-    left: 1250px;
-    top: -55px;
+.button-pendiri button {
+  width: 138px;
+  height: 55px;
+  border: 3px solid #008cff;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 5px;
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: 300;
+  position: relative;
+  left: 1250px;
+  top: -55px;
 }
 
 .button-pendiri button:hover {
-    cursor: pointer;
-    background-color: #008CFF;
-    color: white;
+  cursor: pointer;
+  background-color: #008cff;
+  color: white;
 }
 
 .button-pendiri {
-    margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
+/* Menargetkan semua elemen dengan overflow: scroll atau auto */
+div::-webkit-scrollbar {
+  width: 10px; /* Lebar scrollbar */
+}
 
+/* Mengubah warna latar belakang track scrollbar */
+div::-webkit-scrollbar-track {
+  background: #67c6e3;
+}
+
+/* Mengubah warna thumb scrollbar */
+div::-webkit-scrollbar-thumb {
+  background: none;
+  border: 5px solid #00789c;
+  border-radius: 20px;
+  position: relative;
+}
