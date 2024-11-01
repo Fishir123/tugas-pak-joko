@@ -1,34 +1,42 @@
- body {
-        font-family: Arial, sans-serif;
-        background-color: #b3e5fc;
-        color: #333;
-        margin: 0;
-        padding: auto;
-    }
-    .Teknologi {
-        background-color: #e0f3fc;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        margin: auto;
-    
-       
-    
-    }
-    h1 {
-        font-size: 50px;
-        font-weight: bold;
-    }
-    image {
-        border-radius: 20p
+.teknologi-title h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
 
-    }
-    p {
-        font-size: 18px;
-        line-height: 1;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .section-title {
-        font-weight: bold;
-        margin-top: 20px;
-    }
+.garis {
+  width: 105px;
+  height: 6px;
+  border: none;
+  background-color: #00488a;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 60px;
+}
+
+.teknologi-title {
+  margin-left: 80px;
+}
+
+.teknologi-title img {
+  width: 1280px;
+  height: 468px;
+  border-radius: 20px;
+}
+
+.teknologi-paragraf {
+  width: 1358px;
+  margin-left: 60px;
+}
+
+.teknologi-paragraf > h3{
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.paragraf {
+  text-indent: 50px;
+  font-size: 28px;
+  font-weight: 400;
+}
