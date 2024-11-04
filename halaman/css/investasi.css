@@ -1,14 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #b3d9ff;
+    background-color: #cfe2f3;
     color: #000000;
     margin: 0;
-    padding: 0;
-}
-.investasi {
-    width: 80%;
-    margin: 20px auto;
     padding: 20px;
+}
+.container {
+    background-color: #d9f2f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 h1 {
     text-align: center;
@@ -34,9 +35,9 @@ th, td {
     text-align: left;
 }
 th {
-    background-color: #cccccc;
+    background-color: #a0c4ff;
 }
 .total {
-    font-weight: bold;
     text-align: right;
+    font-weight: bold;
 }
