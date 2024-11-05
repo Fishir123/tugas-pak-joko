@@ -1,0 +1,72 @@
+.image-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.image-left-inside {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
+
+.kiri {
+    width: 50%;
+}
+
+.kanan {
+    width: 48%;
+}
+
+/* image right */
+
+.image-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+.image-right-inside {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1rem;
+}
+
+.left {
+    width: 48%;
+}
+
+.right {
+    width: 50%;
+}
+
+.galeri {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 40px 30px;
+    gap: 1rem;
+    
+}
+
+.gallery_title h1 {
+    font-size: 96px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.gallery_title p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    
+}
+
+.gallery_title{
+    margin: 5px 5px;
+    padding: 0 20px;
+}
