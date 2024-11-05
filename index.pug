@@ -3,16 +3,38 @@ extends component/_template.pug
 block head 
     link(rel="stylesheet", href="component/css/article.css")
     link(rel="stylesheet", href="component/css/circle.css")
+    link(rel="stylesheet", href="style.css")
+
     title homepage
 block content 
-    .landingpage 
-        img(src="img/wave1.png", alt="")
-        .landingcontent 
-            .landing-title 
-                h1 LoremIpsum
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mollis pulvinar. Sed at efficitur dui. Vestibulum vitae bibendum mi, quis aliquet nunc. Aliquam erat volutpat.
-            img(src="img/gambar.png", alt="")
-        img(src="img/wave2.png", alt="")
-        img(src="img/wave3.png", alt="")
-    +article 
-    +circleimage
+    header
+        .landingpage 
+            img(src="img/wave1.png", alt="")
+            .landingcontent 
+                .landing-title 
+                    h1 Lorem Ipsum
+                    p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mollis pulvinar. Sed at efficitur dui. Vestibulum vitae bibendum mi, quis aliquet nunc. Aliquam erat volutpat.
+                img(src="img/landing.png", alt="")
+            img(src="img/wave2.png", alt="")
+            img(src="img/wave3.png", class="img3"alt="")
+    main 
+        .content
+            .sub-title1
+                h1 Benefit 
+                hr
+            article.benefit
+                +circleimage
+                +circleimage
+                +circleimage
+            .sub-title2
+                h1 Event
+                hr
+            article.news
+                .news1
+                    +article
+                .news2
+                    +article
+                .news3
+                    +article
+
+

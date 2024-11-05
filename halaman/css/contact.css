@@ -1,0 +1,140 @@
+.person,
+.building,
+.factory {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 1rem;
+  margin-bottom: 40px;
+}
+.person-title h1,
+.building-title h1,
+.factory-title h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 400;
+}
+.person i,
+.building i,
+.factory i {
+  width: 73px;
+  height: 94px;
+  text-align: center;
+}
+
+.fa.fa-user,
+.fa.fa-building,
+.fa.fa-industry {
+  margin: 0;
+  padding: 0;
+  font-size: 73px;
+}
+
+.person,
+.building,
+.factory {
+  list-style-type: none;
+  margin: 0;
+}
+.person-title p,
+.building-title p,
+.factory-title p {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.person-title {
+  margin-top: 17px;
+}
+.person-title,
+.building-title,
+.factory-title {
+  line-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 15rem;
+  margin-top: 80px;
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* form */
+
+.form-section {
+  width: 698px;
+  height: 886px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+
+.form-group {
+  width: 308px;
+}
+
+#full-name,
+#email,
+#age,
+#phone,
+#address {
+  width: 308px;
+  height: 64px;
+  border-radius: 20px;
+}
+
+.row1,
+.row2,
+.row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.gender {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  border-radius: 20px;
+  padding: 5px;
+  width: 308px;
+  margin: 0;
+}
+
+#reason {
+  width: 641px;
+  height: 437px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.footer-stats {
+  display: flex;
+  flex-direction: row;
+}
+
+.baris1,
+.baris2 {
+  display: flex;
+  flex-direction: row;
+}
+.stats-column {
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+}
+.read-more {
+  background-color: #00b4d8;
+  border-radius: 0 20px 20px 0;
+}
