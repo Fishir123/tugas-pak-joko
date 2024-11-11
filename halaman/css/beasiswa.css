@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 100%;
+    font-family: "DM Sans", sans-serif;
+    background-color: #caf0f8;
+ }
+ 
+ .beasiswa-title {
+    width: 1321px;
+    height: 613px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    font-size: 28px;
+ }
+ .garis {
+  width: 130px;
+  height: 4px;
+  border: none;
+  background-color: #00488a;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0px;
+ }
+ .garis2 {
+    width: 70px;
+    height: 4px;
+    border: none;
+    background-color: #00488a;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 60px;
+   }
+
+
+.button-register {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #000;
+    background-color: #d4f1f9;
+    border: 3px solid #007bff;
+    border-radius: 15px;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 1000px;
+ }
+ .beasiswa-title h1{
+    margin-bottom: 0;
+ }
+ .beasiswa-title p{
+    text-indent: 5rem;
+    font-size: 28px;
+    font-weight: 400px;
+ }
