@@ -39,8 +39,9 @@ block content
     .highlight-sub  
         h2 Highlights
         hr.garis
-    .group-higlight      
-        +higlight
-        +higlight
-        +higlight
+    
+
+    .group-highlight
+        each i in new Array(highlightsCount)
+    +highlight
 
