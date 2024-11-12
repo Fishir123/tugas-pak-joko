@@ -1,0 +1,22 @@
+extends ../component/_template.pug
+
+block head 
+    link(rel="stylesheet", href="css/pendiri.css")
+    link(rel="stylesheet", href="../component/css/vismis.css")
+block title 
+    title Pendiri 
+block content
+    .landing
+        .pendirititle 
+            h1 Lorem Ipsum 
+            p Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus arcu vestibulum torquent hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus. At viverra tortor non vulputate at vel tristique consectetur sed. Mauris consequat rhoncus ut volutpat ante varius convallis proin. Non facilisis urna ullamcorper iaculis; maecenas mauris sodales vitae turpis? Class cubilia orci metus montes tempor consequat.
+        .pendiri-img 
+            img(src="../img/pendiri.png", alt="")
+    .subjudul 
+        h1 Visi & Misi
+        hr.garis
+    .vismis-card 
+        +vismis
+        +vismis
+        +vismis
+

@@ -1,9 +1,9 @@
-.card img {
+.vismis img {
     width: 400px;
     height: 400px;
     margin-bottom: 14px;
 }
-.card p {
+.vismis p {
     font-size: 20px;
     font-weight: 400;
     color: black;
@@ -12,6 +12,6 @@
     margin: 0;
 }
 
-.card {
+.vismis {
     width: 400px;
 }
