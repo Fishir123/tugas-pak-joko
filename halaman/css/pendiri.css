@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  background-color: #caf0f8;
+}
+.vismis-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 83px;
+  margin-top: 45px;
+}
+.pendiri-img {
+    width: 712px;
+    height: 711px;
+}
+
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 107px;
+    justify-content: space-evenly;
+    gap: 8rem;
+
+}
+
+.pendirititle p{
+    width: 818px;
+    font-size: 23px;
+    font-weight: 400
+}
+
+.pendirititle h1{
+    font-size: 96px;
+    font-weight: 900;
+
+}
+.garis {
+    width: 105px;
+    height: 6px;
+    border: none;
+    background-color: #00488a;
+    margin-top: 0;
+    margin-left: 56px;
+    margin-bottom: 0;
+
+ }
+
+.pendirititle {
+    margin-left: 71px;
+}
+
+.subjudul h1 {
+    margin-bottom: 0;
+    margin-left: 56px;
+    font-size: 48px;
+    font-weight: 800;
+}

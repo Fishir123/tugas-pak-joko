@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 100%;
+    font-family: "DM Sans", sans-serif;
+    background-color: #caf0f8;
+  }
+  .detailnewsimage{
+    margin-left: 81px;
+    margin-top: 80px;
+    margin-bottom: 33px;
+  } 
+  .detail-text{
+    text-indent: 5rem;
+    font-size: 28px;
+    font-weight: 400px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 57px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ .detail-text p {
+    margin: 0;
+    padding: 0;
+    margin-left: 71px;
+  }
+
+
+  h1 {
+    font-size: 96px;
+    font-weight: 900;
+    margin-left: 32px;
+    margin-top: 50px;
+    margin-bottom: 42px;
+  }
+  .medsos {
+    display: flex;
+    gap: 1rem;
+    margin-left: 35px;
+    margin-top: 0;
+  }
