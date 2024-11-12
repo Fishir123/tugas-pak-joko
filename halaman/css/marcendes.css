@@ -1,0 +1,41 @@
+.gambar{
+    width: 1132px;
+    height: 556px;
+    margin: 0 150px;
+    margin-top: 50px;
+}
+
+.contenershop{
+    margin-bottom: 100px;
+}
+
+.atas{
+    display: flex;
+    gap: 5rem;
+}
+
+.tengah{
+    display: flex;
+    gap: 5rem;
+}
+
+.shope{
+    display: flex;
+    gap: 5rem;
+    margin: 0 86px;
+}
+
+.tokped{
+    display: flex;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    margin-top: 50px;
+
+}
