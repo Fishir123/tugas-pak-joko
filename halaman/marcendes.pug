@@ -1,0 +1,27 @@
+extends ../component/_template.pug
+
+block head
+    link(rel="stylesheet", href="css/marcendes.css")
+    link(rel="stylesheet", href="../component/css/shop.css")
+block content
+    img(src="../img/gambar.png", alt="", class = "gambar")
+    main
+        .box
+            h1 Chellep Official Store
+            .shope
+                img(src="/img/shopee.png" alt="")
+                p chellep
+            .tokped 
+                img(src="/img/tokopedia.png" alt="")
+                p chellep
+
+        .contenershop
+            .atas   
+                +shop 
+                +shop 
+                +shop 
+            .tengah
+                +shop
+                +shop
+                +shop
+            
