@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 100%;
+    font-family: "DM Sans", sans-serif;
+    background-color: #caf0f8;
+  }
+
+  .statistik{
+    display: block;
+  }
+
+  .statis1 img {
+    width: 100%;
+    height: 731;
+    margin-top: 60px;
+  }
+  .datastatistik table,
+  th,
+  td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .datastatistik th {
+    background-color: none;
+    color: black;
+  }
+  
+  .datastatistik table {
+    margin-left: 225px;
+    width: 1000px;
+    height: 10px;
+    margin-bottom: 40px;
+    border-collapse: collapse;
+    margin-top: 60px;
+  }
