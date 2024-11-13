@@ -6,17 +6,4 @@ block title
     title Calendar
 block content
     h1 Calendar 
-    img(src="../img/kalender.png", alt="")
-
-    - const daysOfWeek = ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su']
-    - const daysInMonth = 31 // Adjust this based on your month
-
-    .calendar
-        .row
-            each day in daysOfWeek
-                div.cell.header= day
-        each week in new Array(6)
-            .row
-                div.cell.week-start= (week * 7) + 1
-                each day in new Array(7)
-                    div.cell= (week * 7) + day + 1 - 7
+    img(src="../img/kalender1.png", alt="")

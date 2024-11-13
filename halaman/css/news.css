@@ -91,16 +91,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.group-higlight {
-  margin-top: 40px;
-  display: flex;
-  direction: row;
-  justify-content: center;
-  gap: 2rem;
-  margin-bottom: 40px;
-}
-
 .highlight-sub {
   margin-left: 80px;
 }
@@ -121,8 +111,10 @@ body {
   margin-bottom: 40px;
 }
 
-.group-higlight {
+.group-highlight{
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  gap:5rem;
+  margin: 0 25px;
+  margin-bottom: 25px;
 }
+
