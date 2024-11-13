@@ -1,3 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  background-color: #caf0f8;
+}
 .landingcontent {
   display: flex;
   direction: row;
