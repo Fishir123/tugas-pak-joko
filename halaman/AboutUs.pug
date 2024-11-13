@@ -1,7 +1,7 @@
 extends ../component/_template.pug
 
 block head
-  link (rel="stylesheet", href="css/about.css")
+  link(rel="stylesheet", href="css/about.css")
   title About Us
 
 block content
@@ -18,16 +18,11 @@ block content
     hr.garis
   .about-content
     img(src="../img/history.png", alt="")
-    // JavaScript
-  var paragraphs = [
-  { text: 'Lorem ipsum dolor sit amet...' },
-  { text: 'Sed ut perspiciatis unde omnis...' },
-  { text: 'Duis aute irure dolor in reprehenderit...' }
-];
-
-// Pug
-.about-text
-  each paragraph in paragraphs
-    p= paragraph.text
+    .about-text
+      p Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus arcu vestibulum torquent hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus. At viverra tortor non vulputate at vel tristique consectetur sed. Mauris consequat rhoncus ut volutpat ante varius convallis proin. Non facilisis urna ullamcorper iaculis; maecenas mauris sodales vitae turpis? Class cubilia orci metus montes tempor consequat.
+      p Facilisis lectus risus ante; parturient id elit. Hendrerit sit taciti metus imperdiet morbi rhoncus lobortis cubilia. Convallis habitant urna urna primis habitasse vivamus semper efficitur a. Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus arcu vestibulum torquent hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus. 
+      p At viverra tortor non vulputate at vel tristique consectetur sed. Mauris consequat rhoncus ut volutpat ante varius convallis proin. Non facilisis urna ullamcorper iaculis; maecenas mauris sodales vitae turpis? Class cubilia orci metus montes tempor consequat. Facilisis lectus risus ante; parturient id elit. Hendrerit sit 
+      p Facilisis lectus risus ante; parturient id elit. Hendrerit sit taciti metus imperdiet morbi rhoncus lobortis cubilia. Convallis habitant urna urna primis habitasse vivamus semper efficitur a. Lorem ipsum odor amet. Facilisis lectus risus ante; parturient id elit. Hendrerit sit taciti metus imperdiet morbi rhoncus lobortis cubilia. Convallis habitant urna urna primis habitasse vivamus semper efficitur a. Lorem ipsum odor amet. Facilisis lectus risus ante.
   .button-pendiri
-    button Pendiri
+    button 
+      a(href="https://fishir123.github.io/tugas-pak-joko/halaman/pendiri.html") Pendiri

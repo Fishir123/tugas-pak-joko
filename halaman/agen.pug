@@ -9,23 +9,38 @@ block content
         p Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus arcu vestibulum torquent hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus. At viverra tortor non vulputate at vel tristique consectetur sed. Mauris consequat rhoncus ut volutpat ante varius convallis proin. Non facilisis urna ullamcorper iaculis; maecenas mauris sodales vitae turpis? Class cubilia orci metus montes tempor consequat. Facilisis lectus risus ante; parturient id elit. Hendrerit sit taciti metus imperdiet morbi rhoncus lobortis cubilia. Convallis.
         .kotak
             p Find our agents near you!
-                .label 
-                    .pilihgroup1 
-                        label Negara 
-                        select(name="country")
-                            option(value="indonesia") Indonesia
-                    .pilihgroup2  
-                        label Provinsi  
-                        select(name="country")
-                            option(value="") Gresik
-                            option(value="") Solo
-                            option(value="") Kalimantan 
-                    .pilihgroup3 
-                        label Kecamatan 
-                        select(name="country")
-                            option(value="") Cerme
-                            option(value="") Boyolali
-                            option(value="") Lolot
+            .label
+                .pilihgroup1
+                  label Negara
+                  select(name="country")
+                    each country in ['Indonesia']
+                      option(value=country)= country
+                .pilihgroup2
+                  label Provinsi
+                  select(name="province")
+                    each province in ['Gresik', 'Boyolali', 'Kalimantan']
+                      option(value=province)= province
+                .pilihgroup3
+                  label Kecamatan
+                  select(name="district")
+                    each district in ['Balongpanggang', 'Boyolali', 'Telaso']
+                      option(value=district)= district
+                            
+    .buttonagen 
+        - var jumlahAgenPerKolom = 11 // Sesuaikan jumlah agen sesuai kebutuhan
+
+        .kiri
+            each i in new Array(jumlahAgenPerKolom)
+                +agen
+
+        .tengah
+            each i in new Array(jumlahAgenPerKolom)
+                +agen
+
+        .kanan
+            each i in new Array(jumlahAgenPerKolom)
+                +agen
+  
 
 
 

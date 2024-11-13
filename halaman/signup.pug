@@ -6,13 +6,13 @@ block head
 block content
     .boxsignup 
         h1 Sign Up 
-        .contenersign 
-            input(type="text", class = "input", placeholder="Email")
-            input(type="text", class = "input", placeholder="Username")
-            input(type="password", class = "input", placeholder="Password")
-            input(type="password", class = "input", placeholder="Confirm Password")
+        .containersign
+            - const Input = ['text', 'text', 'password', 'password']
+            - const placeholder = ['Email', 'Username', 'Password', 'Confirm Password']
+                each inputType, index in Input
+                    input(type=inputType, class='input', placeholder=placeholder[index])
             button(type="submit" class="sign") Sign 
         .login 
             p have an account? 
-            a(href="http://") Login 
+            a(href="https://fishir123.github.io/tugas-pak-joko/halaman/login.html") Login 
 

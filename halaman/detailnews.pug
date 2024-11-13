@@ -7,10 +7,9 @@ block title
 block content 
     h1 Lorem Ipsum 
     .medsos     
-        img(src="../img/logo1.png", alt="")
-        img(src="../img/logo2.png", alt="")
-        img(src="../img/logo3.png", alt="")
-        img(src="../img/logo4.png", alt="")
+        - var images = ['../img/logo1.png', '../img/logo2.png', '../img/logo3.png', '../img/logo4.png']
+            each img in images
+                img(src=img alt="medsos")  
         
     img(src="../img/detailnews.png", alt="",  class = "detailnewsimage")
     .detail-text

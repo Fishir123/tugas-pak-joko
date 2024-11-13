@@ -1,8 +1,8 @@
 extends ../component/_template.pug
 
 block head 
-    link(rel="stylesheet", href="css/merch.css")
-    link(rel="stylesheet", href="component/css/merch.css")
+    link(rel="stylesheet", href="css/karir.css")
+    link(rel="stylesheet", href="component/css/karir.css")
     title karir
 block content
     .karir-image 
@@ -17,7 +17,6 @@ block content
             h1 Outbound
             hr.garis2
     .video
-        video(controls autoplay loop muted)
-            source(src="../img/video1.mp4")
-        video(controls autoplay loop muted)
-            source(src="../img/video2.mp4" type="video/mp4")
+        each videoSrc in ['../img/video1.mp4', '../img/video2.mp4']
+            video(controls autoplay loop muted)
+                source(src=videoSrc, type='video/mp4')

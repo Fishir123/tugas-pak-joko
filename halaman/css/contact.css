@@ -73,6 +73,13 @@
 
 /* form */
 
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2rem;
+  padding-top: 60px;
+}
 .form-section {
   width: 698px;
   height: 886px;
@@ -82,6 +89,10 @@
 
 .form-group {
   width: 308px;
+}
+
+.form-reason {
+  margin-left: 29px;
 }
 
 #full-name,
@@ -105,7 +116,7 @@
 .gender {
   display: flex;
   flex-direction: column;
-  border: 3px solid black;
+  border: 1px solid black;
   border-radius: 20px;
   padding: 5px;
   width: 308px;
@@ -122,19 +133,71 @@
 .footer-stats {
   display: flex;
   flex-direction: row;
+  width: 1360px;
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 40px 40px;
+}
+
+.reward {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
 }
 
 .baris1,
 .baris2 {
   display: flex;
   flex-direction: row;
+  gap: 12rem;
+  margin-left: 10px;
 }
 .stats-column {
   display: inline-block;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
+}
+.stats-column h3 {
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.stats-column p {
+  font-size: 48px;
+  font-weight: 400;
 }
 .read-more {
   background-color: #00b4d8;
   border-radius: 0 20px 20px 0;
+  width: 287px;
+  margin-left: 10px;
+  padding: 0;
+  border: 1px 0 0 0 solid black;
+  display: flex;
+  flex-direction: row;
+}
+
+.read-more a {
+  font-size: 32px;
+  font-weight: 900;
+  text-decoration: none;
+  color: white;
+  width: 82px;
+  margin: auto auto;
+}
+
+.read-more img {
+  width: 99px;
+  margin: auto auto;
+
+}
+
+.male {
+  display: flex;
+  flex-direction: column;
+}
+
+.malelabel {
+  border: none;
 }

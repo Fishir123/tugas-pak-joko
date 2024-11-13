@@ -10,13 +10,12 @@ block content
     div.product-desc
         p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mollis pulvinar. Sed at efficitur dui. Vestibulum vitae bibendum mi, quis aliquet nunc. Aliquam erat volutpat.
     .product-item
-        +product
-        +product 
-        +product
-    .product-item 
-        +product
-        +product 
-        +product 
+        each i in [1, 2, 3]
+            +product
+
+    .product-item
+        each i in [1, 2, 3]
+            +product
     .product-sub
         h1 Why Choose Us?
         hr.garis
