@@ -1,92 +1,99 @@
 body {
-   margin: 0;
-   padding: 0;
-   width: 1440px;
-   height: 100%;
-   font-family: "DM Sans", sans-serif;
-   background-color: #caf0f8;
+  margin: 0;
+  padding: 0;
+  width: 1440px;
+  height: 100%;
+  font-family: "DM Sans", sans-serif;
+  background-color: #caf0f8;
 }
 
 .beasiswa-title {
-   width: 1358px;
-   margin-top: 60px;
-   margin-left: 60px;
-   margin-bottom: 0px;
+  width: 1358px;
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-bottom: 0px;
 }
 
 .garis {
-   width: 130px;
-   height: 4px;
-   border: none;
-   background-color: #00488a;
-   margin-top: 0;
-   margin-left: 0;
-   margin-bottom: 0px;
+  width: 130px;
+  height: 4px;
+  border: none;
+  background-color: #00488a;
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0px;
 }
 
 .garis2 {
-   width: 70px;
-   height: 4px;
-   border: none;
-   background-color: #00488a;
-   margin-top: 0;
-   margin-left: 51px;
-   margin-bottom: 60px;
+  width: 70px;
+  height: 4px;
+  border: none;
+  background-color: #00488a;
+  margin-top: 0;
+  margin-left: 51px;
+  margin-bottom: 60px;
 }
 
-
 .button-register button {
-   width: 307px;
-   height: 70px;
-   border: 3px solid #008cff;
-   border-radius: 20px;
-   text-align: center;
-   padding-top: 5px;
-   background-color: transparent;
-   font-size: 28px;
-   font-weight: 300;
-   position: relative;
-   left: 1065px;
-   top: 46px;
- }
- 
- .button-register button:hover {
-   cursor: pointer;
-   background-color: #008cff;
-   color: white;
- }
- 
- .button-register {
-   margin-bottom: 60px;
- }
+  width: 307px;
+  height: 70px;
+  border: 3px solid #008cff;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 5px;
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: 300;
+  position: relative;
+  left: 1065px;
+  top: 46px;
+}
+
+.button-register button a {
+  text-decoration: none;
+  color: black;
+}
+
+.button-register button:hover {
+  cursor: pointer;
+  background-color: #008cff;
+  color: white;
+}
+
+.button-register button a:hover {
+  color: white;
+}
+
+.button-register {
+  margin-bottom: 60px;
+}
 
 .beasiswa-title h1 {
-   margin-bottom: 0;
-   font-size: 40px;
-   font-weight: 900;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: 900;
 }
 
 .beasiswa-title p {
-   text-indent: 5rem;
-   font-size: 28px;
-   font-weight: 400px;
-   text-align: left;
+  text-indent: 5rem;
+  font-size: 28px;
+  font-weight: 400px;
+  text-align: left;
 }
 
 .beasiswaimage {
-   margin-left: 51px;
-   margin-top: 105px;
+  margin-left: 51px;
+  margin-top: 105px;
 }
 
 .beasiswa-title2 h1 {
-   font-size: 40px;
-   font-weight: 900;
-   margin-bottom: 0;
-   margin-left: 51px
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 0;
+  margin-left: 51px;
 }
 
-
 .beasiswaimage2 {
-   margin-left: 144px;
-   margin-bottom: 93px;
+  margin-left: 144px;
+  margin-bottom: 93px;
 }

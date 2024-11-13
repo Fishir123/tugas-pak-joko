@@ -16,16 +16,15 @@ block content
                     p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean lacinia mollis pulvinar. Sed at efficitur dui. Vestibulum vitae bibendum mi, quis aliquet nunc. Aliquam erat volutpat.
                 img(src="img/landing.png", alt="")
             img(src="img/wave2.png", alt="")
-            img(src="img/wave3.png", class="img3"alt="")
+            img(src="img/wave3.png", class="img3", alt="")
     main 
         .content
             .sub-title1
                 h1 Benefit 
                 hr
             article.benefit
-                +circleimage
-                +circleimage
-                +circleimage
+                each i in [1, 2, 3]
+                    +circleimage
             .sub-title2
                 h1 Event
                 hr

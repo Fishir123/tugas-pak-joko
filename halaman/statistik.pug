@@ -12,30 +12,13 @@ block content
             img(src="../img/diagramgariss.png", alt="")
     .datastatistik    
         table
+           - const data = [{ keterangan: 'Jumlah Pemasukan', data: [35, 44, 44, 45, 45, 47, 55] },{ keterangan: 'Jumlah Penjualan', data: [16, 16, 16, 11, 11, 10, 9] }]
             tr
-                th Keterangan 
-                th 2015
-                th 2016
-                th 2017
-                th 2018
-                th 2019
-                th 2020
-                th 2021
-            tr 
-                td Jumlah Guru PNS
-                td 35
-                td 44
-                td 44
-                td 45
-                td 45
-                td 47
-                td 55
-            tr  
-                td Jumlah Guru Non PNS 
-                td 16
-                td 16
-                td 16
-                td 11
-                td 11
-                td 10
-                td 9
+              th Keterangan
+              each year in [2015, 2016, 2017, 2018, 2019, 2020, 2021]
+                th= year
+            each row in data
+              tr
+                td= row.keterangan
+                each value in row.data
+                  td= value

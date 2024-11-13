@@ -1,0 +1,18 @@
+extends ../component/_template.pug
+
+block head
+    link(rel="stylesheet", href="css/signup.css")
+
+block content
+    .boxsignup 
+        h1 Sign Up 
+        .containersign
+            - const Input = ['text', 'text', 'password', 'password']
+            - const placeholder = ['Email', 'Username', 'Password', 'Confirm Password']
+                each inputType, index in Input
+                    input(type=inputType, class='input', placeholder=placeholder[index])
+            button(type="submit" class="sign") Sign 
+        .login 
+            p have an account? 
+            a(href="https://fishir123.github.io/tugas-pak-joko/halaman/login.html") Login 
+

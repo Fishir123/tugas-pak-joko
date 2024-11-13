@@ -9,15 +9,15 @@ block content
         h1 Galeri 
         p Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus arcu vestibulum torquent hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus. At viverra tortor non vulputate at vel tristique consectetur sed.   Facilisis lectus risus ante; parturient id elit. Hendrerit sit taciti metus imperdiet morbi rhoncus lobortis cubilia. Convallis habitant urna urna primis habitasse vivamus semper efficitur a. Lorem ipsum odor amet, consectetuer adipiscing elit. Dapibus arcu vestibulum torquent hendrerit porttitor. Feugiat sasum odor amet, consectetuer adipiscing elit. Dapibus arcu vestibulum torquent hsis urna 
     .galeri
-        .image-left 
+        .image-left
             img(src="../img/galeri.png", alt="galeri")
-            .image-left-inside 
-                img(src="../img/galeri.png", class = "kiri", alt="")
-                img(src="../img/galeri.png", class = "kanan", alt="")
+            .image-left-inside
+                each i in [1, 2]
+                    img(src="../img/galeri.png", class= i == 1 ? 'kiri' : 'kanan', alt="")
             img(src="../img/galeri.png", alt="")
         .image-right
-            .image-right-inside    
-                img(src="../img/galeri.png", class = "left", alt="")
-                img(src="../img/galeri.png",class = "right", alt="")
+            .image-right-inside
+                each i in [1, 2]
+                    img(src="../img/galeri.png", class= i == 1 ? 'left' : 'right', alt="")
             img(src="../img/galeri.png", alt="")
             img(src="../img/galeri.png", alt="")

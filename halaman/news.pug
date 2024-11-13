@@ -25,13 +25,13 @@ block content
         .daily-reads-section
             h2 For Your Daily Reads
             .news-item
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestib. Feugiat sagittis porttitor magnis ipsum primis penatibus.
                 img(alt="Mountain view" height="100" width="100" src="../img/gambar.png")
             .news-item
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. ipsum primis penatibus.
                 img(alt="Mountain view" height="100" width="100" src="../img/gambar.png")
             .news-item
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
+                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis.
                 img(alt="Mountain view" height="100" width="100" src="../img/gambar.png")
             .news-item
                 p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis arcu vestibulum tortor hendrerit porttitor. Feugiat sagittis porttitor magnis ipsum primis penatibus.
@@ -39,8 +39,9 @@ block content
     .highlight-sub  
         h2 Highlights
         hr.garis
-    .group-higlight      
-        +higlight
-        +higlight
-        +higlight
+    
+
+    .group-highlight
+        each i in [1, 2, 3]
+            +higlight
 
