@@ -1,11 +1,75 @@
-.calendar {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    border: 1px solid #ccc;
+body {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 100%;
+    font-family: "DM Sans", sans-serif;
+    background-color: #caf0f8;
+  }
+  
+h1 {
+    font-size: 96px;
+    font-weight: 900;
+    text-align: center;
 }
 
-.cell {
-    border: 1px solid #ccc;
-    text-align: center;
-    padding: 10;
+img {
+    margin-left: 200px;
+    margin-bottom: 91px;
+}
+.calendar {
+    background-color: #a3e4f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    background-color: #a3e4f9;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.calendar-header div {
+    font-size: 24px;
+    font-weight: bold;
+}
+.calendar-header .today-button {
+    background-color: #00aaff;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.calendar-body {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 5px;
+}
+.calendar-body div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.calendar-body .week-number {
+    background-color: #00aaff;
+}
+.calendar-body .day {
+    color: #000000;
+}
+.calendar-body .current-day {
+    color: #000000;
+    font-weight: bold;
+}
+.calendar-body .weekend {
+    color: #0000ff;
 }
