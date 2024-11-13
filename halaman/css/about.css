@@ -94,7 +94,7 @@ h1 {
   top: -55px;
 }
 
-.button-pendiri a {
+.button-pendiri button a {
   text-decoration: none;
   color: black;
   font-size: 28px;
@@ -103,6 +103,10 @@ h1 {
 .button-pendiri button:hover {
   cursor: pointer;
   background-color: #008cff;
+  color: white;
+}
+
+.button-pendiri button a:hover {
   color: white;
 }
 
