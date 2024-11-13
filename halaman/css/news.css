@@ -32,7 +32,6 @@ body {
   color: white;
   font-size: 29px;
   font-weight: 500;
-  
 }
 .search-bar {
   width: 586px;
@@ -120,4 +119,10 @@ body {
   margin-left: 0px;
   margin-top: 0;
   margin-bottom: 40px;
+}
+
+.group-higlight {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
